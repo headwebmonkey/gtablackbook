@@ -1,0 +1,38 @@
+html, body{
+  background-image: url(../img/dark_leather.png);
+  font-family: -apple-system-font, "Helvetica Neue";
+}
+
+.logo, .appStores, .description{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.logo img{
+  width: 80%;
+  max-width: 400px;
+}
+
+.appStores img{
+  height: 40px;
+}
+
+.appStores .store{
+  color: white;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.appStores .store:last-child{
+  margin-right: 0px;
+}
+
+.appStores .store a{
+  text-decoration: none;
+}
+
+.description{
+  color: white;
+  padding: 20px;
+  padding-top: 50px;
+}
